@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'AEBControlLogicUnit'.
  *
- * Model version                  : 1.3
+ * Model version                  : 1.4
  * Simulink Coder version         : 25.1 (R2025a) 21-Nov-2024
- * C/C++ source code generated on : Mon Oct 20 14:21:39 2025
+ * C/C++ source code generated on : Wed Oct 22 03:29:19 2025
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -37,8 +37,8 @@ typedef struct {
 } MdlrefDW_AEBControlLogicUnit_T;
 
 extern void AEBControlLogicUnit(const float64 *rtu_EgoVehicleSpeed, const
-  float64 *rtu_LeadVehicleSpeed, const float64 *rtu_LeadVehicleDistance, float64
-  *rty_AEB_Status, float64 *rty_BrakeCommand, DW_AEBControlLogicUnit_f_T
+  float64 *rtu_LeadVehicleDistance, const float64 *rtu_LeadVehicleSpeed, float64
+  *rty_BrakeCommand, float64 *rty_AEB_Status, DW_AEBControlLogicUnit_f_T
   *localDW);
 
 /*-

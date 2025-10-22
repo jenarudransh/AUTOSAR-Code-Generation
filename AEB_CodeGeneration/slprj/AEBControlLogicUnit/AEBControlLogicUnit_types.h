@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'AEBControlLogicUnit'.
  *
- * Model version                  : 1.3
+ * Model version                  : 1.4
  * Simulink Coder version         : 25.1 (R2025a) 21-Nov-2024
- * C/C++ source code generated on : Mon Oct 20 14:21:39 2025
+ * C/C++ source code generated on : Wed Oct 22 03:29:19 2025
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
