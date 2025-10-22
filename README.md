@@ -44,3 +44,4 @@ You will need a compatible version of MATLAB and Simulink with the following too
 3.  Use the `AEB.CodeGeneration.slx` model to initiate the code generation process, which will produce AUTOSAR-compliant C code in the `AEB_CodeGeneration` directory.
 
 ## File Structure
+. ├── AEB_CodeGeneration/ # Output directory for generated code ├── AEBControlLogicUnits.slx # Simulink model for control logic units ├── AEB.CodeGeneration.slx # Simulink model configured for code generation ├── Automatic_Braking_System.slx # Main Simulink model for the AEB system ├── LICENSE # MIT License └── README.md # This README file
