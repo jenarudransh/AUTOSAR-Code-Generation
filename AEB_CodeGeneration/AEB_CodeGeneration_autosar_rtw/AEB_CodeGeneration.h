@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'AEB_CodeGeneration'.
  *
- * Model version                  : 1.2
+ * Model version                  : 1.3
  * Simulink Coder version         : 25.1 (R2025a) 21-Nov-2024
- * C/C++ source code generated on : Mon Oct 20 14:22:02 2025
+ * C/C++ source code generated on : Tue Oct 21 22:38:51 2025
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -31,8 +31,8 @@
 /* PublicStructure Variables for Internal Data, for system '<Root>' */
 typedef struct {
   MdlrefDW_AEBControlLogicUnit_T AEBControlLogicUnit_InstanceDat;/* '<Root>/AEBControlLogicUnit' */
-  float64 AEB_Status;                  /* '<Root>/AEBControlLogicUnit' */
   float64 BrakeCommand;                /* '<Root>/AEBControlLogicUnit' */
+  float64 AEB_Status;                  /* '<Root>/AEBControlLogicUnit' */
 } ARID_DEF_AEB_CodeGeneration_T;
 
 /* PublicStructure Variables for Internal Data */
