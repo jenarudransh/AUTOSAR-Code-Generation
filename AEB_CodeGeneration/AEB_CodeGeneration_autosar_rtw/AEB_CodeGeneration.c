@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'AEB_CodeGeneration'.
  *
- * Model version                  : 1.2
+ * Model version                  : 1.3
  * Simulink Coder version         : 25.1 (R2025a) 21-Nov-2024
- * C/C++ source code generated on : Mon Oct 20 14:22:02 2025
+ * C/C++ source code generated on : Tue Oct 21 22:38:51 2025
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -44,17 +44,17 @@ void AEB_CodeGeneration_Step(void)
 
   /* ModelReference: '<Root>/AEBControlLogicUnit' */
   AEBControlLogicUnit(&tmpIRead, &tmpIRead_1, &tmpIRead_0,
-                      &AEB_CodeGeneration_ARID_DEF.AEB_Status,
                       &AEB_CodeGeneration_ARID_DEF.BrakeCommand,
+                      &AEB_CodeGeneration_ARID_DEF.AEB_Status,
                       &(AEB_CodeGeneration_ARID_DEF.AEBControlLogicUnit_InstanceDat.rtdw));
 
   /* Outport: '<Root>/BrakeCommand' */
   Rte_IWrite_AEB_CodeGeneration_Step_BrakeCommand_BrakeCommand
-    (AEB_CodeGeneration_ARID_DEF.BrakeCommand);
+    (AEB_CodeGeneration_ARID_DEF.AEB_Status);
 
   /* Outport: '<Root>/AEB_Status' */
   Rte_IWrite_AEB_CodeGeneration_Step_AEB_Status_AEB_Status
-    (AEB_CodeGeneration_ARID_DEF.AEB_Status);
+    (AEB_CodeGeneration_ARID_DEF.BrakeCommand);
 }
 
 /* Model initialize function */
